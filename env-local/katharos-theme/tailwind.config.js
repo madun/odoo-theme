@@ -3,7 +3,7 @@ module.exports = {
   content: [
     './views/**/*.xml',
     './static/src/js/**/*.js',
-    './static/src/css/**/*.scss',
+    './static/src/scss/**/*.scss',
   ],
   darkMode: 'class', // atau 'media' atau 'class'
   theme: {
