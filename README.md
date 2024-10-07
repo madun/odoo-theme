@@ -11,13 +11,13 @@ mengaktifkan env yang akan digunakan
 source env-name/bin/activate
 ```
 
-install requirement dependencies (pastikan posisi CLI di dalam (env-name)) 
+install requirement dependencies (pastikan posisi active env di dalam (env-name)) 
 ```
 pip3 install setuptools wheel
 pip3 install -r requirements.txt
 ```
 
-(optional) di dalam env-name jalankan
+(optional) di dalam env env-name jalankan
 ```
 npm install -g rtlcss
 ```
