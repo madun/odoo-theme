@@ -1,3 +1,5 @@
+## Katharos (mean "Clean" in Greece)
+
 ### how to start
 
 create env
@@ -37,6 +39,14 @@ http_port = 8069
 setelahnya jalankan perintah berikut untuk menjalankan server odoo di port yg telah di pasang di odoo.conf
 ```
 python3 odoo-bin -c odoo.conf dbbaru
+```
+
+### how to listen or build tailwindcss
+
+on the path dir env-name/katharos-theme
+```
+npm run build:css
+npm run watch:css
 ```
 
 
