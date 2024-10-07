@@ -37,7 +37,7 @@ node_modules
 jsconfig.json
 tsconfig.json
 package-lock.json
-package.json
+# package.json
 .husky
 
 # various virtualenv
