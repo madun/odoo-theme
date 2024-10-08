@@ -1,0 +1,10 @@
+<!-- views/assets.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_frontend" inherit_id="web.assets_frontend" name="My Custom Frontend Assets">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/katharos-theme/static/src/css/style.css"/>
+            <!-- <script type="text/javascript" src="/my_custom_theme/static/src/js/my_custom_script.js"></script> -->
+        </xpath>
+    </template>
+</odoo>
