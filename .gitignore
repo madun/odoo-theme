@@ -1,6 +1,8 @@
 # sphinx build directories
 _build/
 
+theme
+
 # dotfiles
 .*
 !.gitignore
